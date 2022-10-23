@@ -1,0 +1,12 @@
+.clients {
+  padding-top: 150px;
+  background: url(../../../images/Clients_bg.png), #ffffff;
+
+  & > h2 {
+    font-size: 40px;
+    color: #a83936;
+    font-weight: 400;
+    font-family: "El Messiri";
+    text-align: center;
+  }
+}

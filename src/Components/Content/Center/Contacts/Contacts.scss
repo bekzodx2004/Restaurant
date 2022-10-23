@@ -1,0 +1,81 @@
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #ffffff;
+
+  &>img{
+    max-width: 420px;
+    width: 100%;
+  }
+
+  & > div {
+    margin: 20px;
+    width: 280px;
+    & > h2 {
+      font-size: 40px;
+      width: 280px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      color: #a83936;
+      padding-top: 40px;
+      padding-bottom: 20px;
+      background: url(../../../images/naqsh2.png) no-repeat center;
+    }
+
+    & > h4 {
+      color: #666666;
+      margin-top: 45px;
+    }
+    & > h3 {
+      font-size: 24px;
+    }
+    & > div {
+      margin-top: 45px;
+      & > a {
+        margin-right: 30px;
+        & > i {
+          font-size: 18px;
+          color: #666666;
+        }
+      }
+      & > a :hover {
+        color: #a83936;
+        text-shadow: 0 0 15px;
+      }
+    }
+  }
+
+  & > form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 20px;
+
+    & > h3 {
+      font-size: 26px;
+      color: #a83936;
+      margin-bottom: 24px;
+    }
+
+    & > input {
+      max-width: 318px;
+      width: 140%;
+      height: 50px;
+      box-sizing: border-box;
+      padding-left: 30px;
+      margin-bottom: 15px;
+      border: 1px solid #666666;
+    }
+    & > button {
+      font-size: 16px;
+      color: #ffffff;
+      border: none;
+      letter-spacing: 1px;
+      font-weight: 100;
+      width: 160px;
+      height: 50px;
+      background-color: #a83936;
+    }
+  }
+}
