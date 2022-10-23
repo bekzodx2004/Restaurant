@@ -1,0 +1,40 @@
+.menyu__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+
+  
+  & > img {
+    max-width: 590px;
+    width: 100%;
+  }
+
+  & > .menyu__block__text {
+    max-width: 590px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 60px;
+    padding-left: 53px;
+    & > h2 {
+      font-size: 40px;
+      color: #a83936;
+    }
+    &>p{
+        margin-top: 35px;
+        font-size: 16px;
+        color: #666666;
+    }
+    &>h3{
+        font-size: 24px;
+        margin-top: 20px;
+        color: #5a232c;
+    }
+    &>a{
+        margin-top: 25px;
+        font-size: 16px;
+        color: #a83936;
+        display: block;
+    }
+  }
+}

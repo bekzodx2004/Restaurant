@@ -1,0 +1,26 @@
+.gallery {
+  background-color: #fff;
+  overflow: hidden;
+  & > h2 {
+    font-size: 40px;
+    width: 260px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #a83936;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background: url(../../../images/naqsh2.png) center;
+  }
+
+  & > .gallery__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    & > img {
+      max-width: 390px;
+      width: 100%;
+    }
+  }
+}

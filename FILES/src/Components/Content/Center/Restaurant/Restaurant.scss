@@ -1,0 +1,66 @@
+.restaurant {
+  overflow: hidden;
+  padding-bottom: 80px;
+  & > h1 {
+    font-size: 100px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "El Messiri";
+    text-align: center;
+    margin-top: 100px;
+    line-height: normal;
+  }
+  & > h3 {
+    margin-top: -30px;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "El Messiri";
+    text-align: center;
+  }
+  & > img {
+    display: block;
+    margin: auto;
+    max-width: 190px;
+    width: 95%;
+  }
+
+  & > .restaurant__contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    & > div {
+      max-width: 270px;
+      margin-bottom: 20px;
+
+      & > h5 {
+        font-size: 18px;
+        color: #c0c2b4;
+        font-weight: 400;
+        font-family: "El Messiri";
+      }
+      & > h2 {
+        font-size: 26px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "El Messiri";
+      }
+      & > h4 {
+        font-size: 18px;
+        color: #c0c2b4;
+        font-weight: 400;
+        font-family: "El Messiri";
+        text-align: right;
+      }
+      p {
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "El Messiri";
+        text-align: right;
+      }
+    }
+  }
+}
