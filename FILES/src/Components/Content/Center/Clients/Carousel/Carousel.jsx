@@ -8,7 +8,7 @@ import I1 from '../../../../images/client.png'
 
 
 
-export let car = [
+export let cards = [
    <Card img={I1} ism={"ЕКАТЕРИНА"}/>,
    <Card img={I1} ism={"ЕКАТЕРИНА"}/>,
    <Card img={I1} ism={"ЕКАТЕРИНА"}/>,
@@ -18,9 +18,9 @@ const Carousel = () => {
   return (
     <AliceCarousel 
     mouseTracking 
-    items={car} 
+    items={cards} 
     infinite={true} 
-    autoPlay={true} 
+    autoPlay={true}  
     animationDuration={5000} 
     />
   );
